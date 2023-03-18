@@ -15,7 +15,7 @@ module.exports = {
         'marisa0199914@gmail.com'
       );
       const adminUser2 = await usersService.findUserByEmailOr404(
-        'mauricioB@gmail.com'
+        'mauricio.blair@aol.com'
       );
       const adminRole = await rolesService.findRoleByName('admin');
       const profiles = [
@@ -49,7 +49,7 @@ module.exports = {
         'marisa0199914@gmail.com'
       );
       const adminUser2 = await usersService.findUserByEmailOr404(
-        'mauricioB@gmail.com'
+        'mauricio.blair@aol.com'
       );
       const adminRole = await rolesService.findRoleByName('admin');
 
